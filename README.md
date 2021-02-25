@@ -72,14 +72,18 @@ Abstract description like: 🚧 Zenroom is a software in **ALPHA stage** and are
 ***
 ## 🎮 Quick start
 
-To start using {project_name} just (fill with real documentation)
 
 ***
 ## 🐋 Docker
 
 ```bash
-docker build -t {project_name} .
-docker run --rm -it {project_name}
+cargo install cargo-make
+cargo make start
+```
+Enter the shell of the container
+
+```bash
+cargo make shell
 ```
 
 **[🔝 back to top](#toc)**

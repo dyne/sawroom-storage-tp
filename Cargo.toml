@@ -1,0 +1,14 @@
+[package]
+name = "sawtooth-state-tp"
+version = "0.1.0"
+authors = ["Puria Nafisi Azizi <puria@dyne.org>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cbor-codec = "0.7.1"
+log = "0.4.13"
+log4rs = "1.0.0"
+rust-crypto = "0.2.36"
+sawtooth-sdk = "0.5.0"
