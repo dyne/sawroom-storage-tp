@@ -44,42 +44,53 @@
   <a href="#-license">💼 License</a>
 </h4>
 
-
 Abstract description like: 🚧 Zenroom is a software in **ALPHA stage** and are part of the [DECODE project](https://decodeproject.eu) about data-ownership and [technological sovereignty](https://www.youtube.com/watch?v=RvBRbwBm_nQ). Our effort is that of improving people's awareness of how their data is processed by algorithms, as well facilitate the work of developers to create along [privacy by design principles](https://decodeproject.eu/publications/privacy-design-strategies-decode-architecture) using algorithms that can be deployed in any situation without any change.
-
 
 <details id="toc">
  <summary><strong>🚩 Table of Contents</strong> (click to expand)</summary>
 
-* [Install](#-install)
-* [Quick start](#-quick-start)
-* [Docker](#-docker)
-* [API](#-api)
-* [Configuration](#-configuration)
-* [Testing](#-testing)
-* [Troubleshooting & debugging](#-troubleshooting--debugging)
-* [Acknowledgements](#-acknowledgements)
-* [Links](#-links)
-* [Contributing](#-contributing)
-* [License](#-license)
+- [Install](#-install)
+- [Quick start](#-quick-start)
+- [Docker](#-docker)
+- [API](#-api)
+- [Configuration](#-configuration)
+- [Testing](#-testing)
+- [Troubleshooting & debugging](#-troubleshooting--debugging)
+- [Acknowledgements](#-acknowledgements)
+- [Links](#-links)
+- [Contributing](#-contributing)
+- [License](#-license)
 </details>
 
-***
+---
+
 ## 💾 Install
-```pip install / yard add {project_name}```
 
+`pip install / yard add {project_name}`
 
-***
+---
+
 ## 🎮 Quick start
 
+Use [just](https://github.com/casey/just) run `just` to see al targets
 
-***
+### start
+
+starts the whole Docker situation
+
+### bash
+
+Login to the docker container, hence you can play and run commands on the guest machine
+
+---
+
 ## 🐋 Docker
 
 ```bash
 cargo install cargo-make
 cargo make start
 ```
+
 Enter the shell of the container
 
 ```bash
@@ -88,28 +99,32 @@ cargo make shell
 
 **[🔝 back to top](#toc)**
 
-***
+---
+
 ## 🐝 API
 
 **[🔝 back to top](#toc)**
 
-***
+---
+
 ## 🔧 Configuration
 
 **[🔝 back to top](#toc)**
 
-***
+---
 
 ## 📋 Testing
 
 **[🔝 back to top](#toc)**
 
-***
+---
+
 ## 🐛 Troubleshooting & debugging
 
 **[🔝 back to top](#toc)**
 
-***
+---
+
 ## 😍 Acknowledgements
 
 [![software by Dyne.org](https://files.dyne.org/software_by_dyne.png)](http://www.dyne.org)
@@ -122,7 +137,8 @@ Special thanks to Mr. W. White for his special contributions.
 
 **[🔝 back to top](#toc)**
 
-***
+---
+
 ## 🌐 Links
 
 https://www.somelink.io/
@@ -131,7 +147,8 @@ https://dyne.org/
 
 **[🔝 back to top](#toc)**
 
-***
+---
+
 ## 👤 Contributing
 
 Please first take a look at the [Dyne.org - Contributor License Agreement](CONTRIBUTING.md) then
@@ -143,11 +160,12 @@ Please first take a look at the [Dyne.org - Contributor License Agreement](CONTR
 5.  Create a new Pull Request
 6.  🙏 Thank you
 
-
 **[🔝 back to top](#toc)**
 
-***
+---
+
 ## 💼 License
+
     {project_name} - {tagline}
     Copyleft (ɔ) 2021 Dyne.org foundation, Amsterdam
 
