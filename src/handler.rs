@@ -144,13 +144,6 @@ impl TransactionHandler for StateTransactionHandler {
         };
 
         let mut state = State::new(context);
-        info!(
-            "payload: {} {} {}",
-            payload.get_value(),
-            request.get_header().get_inputs()[0],
-            request.get_header().get_outputs()[0]
-        );
-
         state.set(payload.get_address(), payload.get_value())
     }
 }
